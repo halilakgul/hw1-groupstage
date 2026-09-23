@@ -44,7 +44,7 @@ public class Menu {
                 System.out.println("Differs from average of Array: " + Arrays.toString(ArrayApp.differenceFromAverage(arr)));
             } else if (option == 3){
                 System.out.println("Sum of elements with odd-numbered indexes: " + ArrayApp.findSumOfOddNumberedIndexes(arr));
-                System.out.println("Sum of elements with even-numbered indexes: " + ArrayApp.findSumOfEvenNumberedIndexes(arr));
+                System.out.println("Sum of elements with even-numbered indexes: " + ArrayApp.findSumOfEvendNumberedIndexes(arr));
             } else if (option == 4){
                 System.out.print("Exiting");
                 isFinished = true;

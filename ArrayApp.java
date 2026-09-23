@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class ArrayApp {
     /**
      * Finds the maximum value in an integer array.
@@ -70,5 +72,12 @@ public class ArrayApp {
     return sum;
     }
 
-    
+    // Taken an array size from the user, create an int array that contains random integers in the range [0,100].
+    public static int[] createRandomArray(int size){
+    Random random=new Random();
+    int[] RandomArray=new int[size];
+    for(int i=0;i<size;i++) RandomArray[i]=random.nextInt(101);
+    return RandomArray;
+    }
+
 }
